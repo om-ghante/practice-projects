@@ -1,0 +1,138 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.getstartedbtn {
+  background-color: black;
+  color: white;
+}
+
+.z-main-div {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.main-input {
+  height: 100px;
+  width: 99%;
+  resize: none;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: right;
+  position: relative;
+}
+
+.hsty-div {
+  height: 400px;
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 10px;
+  display: none;
+  align-items: flex-start;
+  background-color: whitesmoke;
+}
+
+.hsty-div p {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.main-btns-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  width: 24%;
+  float: left;
+  display: grid;
+  padding: 10px;
+  row-gap: 10px;
+}
+
+.left {
+  width: 74%;
+  float: left;
+  display: grid;
+  padding: 10px;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.cal-btn {
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+
+.ans {
+  background-color: green;
+}
+
+.cls {
+  background-color: red;
+}
+
+.bksp {
+  background-color: gray;
+}
+
+.hsty {
+  background-color: yellowgreen;
+}
+
+.num {
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  color: black;
+}
+
+.opt {
+  background-color: gray;
+  color: black;
+}
